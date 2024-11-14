@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- header -->
+  <header class="header center" id="navbar">
+    <h3>
+        <a href="" style="color: blueviolet;">Ac.</a>
+    </h3>
+    <input type="checkbox" id="nav-toggle" class="nav__toggle">
+    <label for="nav-toggle" class="nav__hamburger">&#9776;</label>
+    <nav class="nav center">
+        <ul class="nav__list center">
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#projects">Projects</a>
+            </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#skills">Skills</a>
+            </li>
+            <li class="nav__list-item">
+                <a class="link link--nav" href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main>
+      <!-- solar -->
+      <div class="container">
+        <div class="orbit">
+            <div class="smaller"></div>
+            <div class="bigger"></div>
+        </div>
+    </div>
+        <!-- about -->
+<div class="about center">
+  <h1>Hi, I am <span class="about__name">Anirudh Chauhan.</span></h1>
+  <h2 class="about__role">A Front-end Developer.</h2>
+  
+  <div class="about__content">
+      <!-- Left Image -->
+      <img src="./ch.svg" alt="Left Image" class="about__image about__image--left">
+      
+      <!-- Paragraph Content -->
+      <p class="about__desc">
+        Driven by a love for crafting visually appealing and functional
+        websites, I am a passionate front-end developer. My journey in web
+        development has been fueled by a commitment to creating intuitive,
+        responsive designs that engage users across devices. I thrive on 
+        combining creativity with technical skill to bring ideas to life 
+        on the screen, leveraging HTML, CSS, and JavaScript to deliver 
+        seamless user experiences.This passion keeps me continuously learning 
+        and adapting to the latest trends and technologies in front-end development.
+      </p>
+      
+      <!-- Right Image -->
+      <img src="./chh.svg" alt="Right Image" class="about__image about__image--right">
+  </div>
+
+  <div class="about__contact center">
+      <a href="./resume.pdf">
+          <span class="btn btn--outline">Resume</span>
+      </a>
+  </div>
+</div>
+
+         <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Project 1</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">ML</li>
+              <li class="project__stack-item">Feature engineering</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Project 2</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML/CSS</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Data Stuctures</li>
+            </ul>
+          </div>
+
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">Data Structures</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">XML</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Data Structures</li>
+          <li class="skills__list-item btn btn--plain">React</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Figma</li>
+          <li class="skills__list-item btn btn--plain">NoSql</li>
+          <li class="skills__list-item btn btn--plain">MongDB</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+        </ul>
+      </section>
+      <!-- Mail -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Mail</h2>
+        <a href="mailto:anirudh102005@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+      <!-- contact us -->
+      <div class="contact__form-container">
+        <img src="./3d-render-blue-paper-airplane-icon-send-an-email-or-message-concept-png.webp" alt="Contact Us" class="contact__image">
+        <form class="contact__form" action="#" method="post">
+            <h3>Contact Us</h3>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit" class="btn btn--submit">Send Message</button>
+        </form>
+    </div>
+    
+       
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <a
+          href="https://github.com/anirudh0510"
+          class="link footer__link">
+          Created By Anirudh Chauhan
+        </a>
+      </footer>
+</body>
+</html>
